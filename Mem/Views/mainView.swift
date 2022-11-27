@@ -17,7 +17,7 @@ struct mainView: View {
             .toolbar {
                 ToolbarItem {
                     Button(action: {}) {
-                        Label("Add Item", systemImage: "plus")
+                        Label("new Item", systemImage: "plus")
                     }
                 }
             }
