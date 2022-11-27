@@ -1,10 +1,3 @@
-//
-//  Memo.swift
-//  MoeMemos
-//
-//  Created by Mudkip on 2022/9/4.
-//
-
 import Foundation
 
 enum MemosVisibility: String, Decodable, Encodable {

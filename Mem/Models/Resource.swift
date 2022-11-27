@@ -1,10 +1,3 @@
-//
-//  Resource.swift
-//  MoeMemos
-//
-//  Created by Mudkip on 2022/9/10.
-//
-
 import Foundation
 
 struct Resource: Decodable, Identifiable, Equatable {

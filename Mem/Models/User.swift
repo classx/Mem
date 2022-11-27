@@ -1,10 +1,3 @@
-//
-//  User.swift
-//  MoeMemos
-//
-//  Created by Mudkip on 2022/9/5.
-//
-
 import Foundation
 
 enum MemosRole: String, Decodable {
