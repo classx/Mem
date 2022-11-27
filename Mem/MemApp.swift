@@ -13,8 +13,11 @@ struct MemApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            mainView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
+        }
+        Settings {
+            SettingView()
         }
     }
 }
